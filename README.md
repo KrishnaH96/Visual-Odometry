@@ -29,3 +29,31 @@
 - For rotation, use formulas to get the roll, pitch and yaw from the rotation matrix.
 - Create a 3D plot to show the movement of camera using X,Y and Z coordinates from each frame.
 - Plot the roll, pitch and yaw with respective frame numbers as X axis.
+
+## Installation
+
+To run the code in this repository, you need to have the following packages installed:
+
+- OpenCV
+- NumPy
+- matplotlib(pyplot)
+- mpl_toolkits.mplot3d
+- matplotlib.animation
+
+You can install the required packages using pip:
+
+```
+pip install opencv-python numpy
+```
+## Usage
+
+To use this code, follow these steps:
+
+1. Clone this repository: `https://github.com/KrishnaH96/Visual-Odometry.git`
+2. Change the path of the video in the python script.
+3. Run the Python script
+4. The output will show the video with the edges and the corners of the paper highlighted, and all the required graphs.
+
+## Contributing
+
+If you find any issues with the code or want to suggest improvements, feel free to open an issue or create a pull request in this repository. 
